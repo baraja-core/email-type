@@ -1,7 +1,7 @@
 {
-	"name": "baraja-core/template",
-	"description": "This is a template package.",
-	"homepage": "https://github.com/baraja-core/template",
+	"name": "baraja-core/email-type",
+	"description": "Email boxing.",
+	"homepage": "https://github.com/baraja-core/email-type",
 	"authors": [
 		{
 			"name": "Jan Barášek",
