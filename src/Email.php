@@ -24,7 +24,7 @@ final class Email implements \Stringable
 			throw new \InvalidArgumentException('E-mail can not be empty.');
 		}
 		if (filter_var($email, FILTER_VALIDATE_EMAIL) === false) {
-			throw new \InvalidArgumentException('E-mail "' . $email . '" is not valid.');
+			throw new \InvalidArgumentException(sprintf('E-mail "%s" is not valid.', $email));
 		}
 
 		return $email;
